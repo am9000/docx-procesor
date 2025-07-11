@@ -47,7 +47,7 @@ def add_generated_lines_to_headers(file_path):
         return False
     
 if __name__ == "__main__":
-    file_path = 'test-data/SHARED-test-short-input.docx'
+    file_path = 'test-data/SHARED-input.docx'
     if add_generated_lines_to_headers(file_path):
         print("Document processed and saved as 'output.docx'.")
     else:

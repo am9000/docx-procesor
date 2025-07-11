@@ -37,4 +37,4 @@ def convert_html_to_markdown(source_file, target_file):
         return False
 
 if __name__ == "__main__":
-    convert_html_to_markdown("test-data/SHARED-test-short-output.html", "test-data/SHARED-test-short-output.md")
+    convert_html_to_markdown("test-data/SHARED-output.html", "test-data/SHARED-output.md")

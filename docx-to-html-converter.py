@@ -34,7 +34,7 @@ def convert_docx_to_html(source_filename, target_filename):
         }
 
 if __name__ == "__main__":
-    result = convert_docx_to_html("test-data/SHARED-test-short-output.docx", "test-data/SHARED-test-short-output.html")
+    result = convert_docx_to_html("test-data/SHARED-output.docx", "test-data/SHARED-output.html")
     if result["success"]:
         print(f"Conversion successful.")
         if result["messages"]:
